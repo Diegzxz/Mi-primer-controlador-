@@ -7,11 +7,11 @@ public class Gamer {
     private String password;
     private int nivel;
 
-    // Constructor sin parámetros
+    /
     public Gamer() {
     }
 
-    // Constructor con parámetros
+    
     public Gamer(int idGamer, String nombre, String usuario, String password, int nivel) {
         this.idGamer = idGamer;
         this.nombre = nombre;
@@ -20,7 +20,7 @@ public class Gamer {
         this.nivel = nivel;
     }
 
-    // Getters y Setters
+    
     public int getIdGamer() {
         return idGamer;
     }
